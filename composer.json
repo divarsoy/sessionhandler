@@ -1,0 +1,34 @@
+{
+  "name": "divarsoy/sessionhandler",
+  "description": "Fix to Laravel session handler (enables locking)",
+  "keywords": [
+    "divarsoy",
+    "Laravel",
+    "Session Handler",
+  ],
+  "homepage": "https://github.com/divarsoy/sessionhandler",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dag A. Ivarsøy",
+      "email": "dagivarsoy@gmail.com",
+      "homepage": "https://ivarsoysolutions.co.uk",
+      "role": "Developer",
+      "name": "Taylor Otwell",
+      "email": "taylorotwell@gmail.com"
+    }
+  ],
+  "require": {
+    "php" : ">=5.4.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Illuminate": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
