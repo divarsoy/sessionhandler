@@ -1,5 +1,5 @@
 {
-    "name": "illuminate/session",
+    "name": "Divarsoy/illuminate/session",
     "license": "MIT",
     "authors": [
         {
@@ -22,10 +22,10 @@
     },
     "autoload": {
         "psr-0": {
-            "Illuminate\\Session": ""
+            "Divarsoy\\Illuminate\\Session": ""
         }
     },
-    "target-dir": "Illuminate/Session",
+    "target-dir": "Divarsoy/Illuminate/Session",
     "extra": {
         "branch-alias": {
             "dev-master": "4.2-dev"
