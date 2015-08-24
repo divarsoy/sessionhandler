@@ -40,7 +40,7 @@ class FileSessionServiceProvider extends ServiceProvider {
 	{
 		$this->app->bindShared('session', function($app)
 		{
-			return new FileSessionManagerSessionManager($app);
+			return new FileSessionManager($app);
 		});
 	}
 
