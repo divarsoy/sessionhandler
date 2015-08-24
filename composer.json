@@ -22,8 +22,8 @@
     "php" : ">=5.4.0"
   },
   "autoload": {
-    "psr-0": {
-      "Divarsoy": "src/"
+    "psr-4": {
+      "Divarsoy\\": "src"
     }
   },
   "extra": {
