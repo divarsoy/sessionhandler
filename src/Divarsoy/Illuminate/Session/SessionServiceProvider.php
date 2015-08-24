@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class SessionServiceProvider extends ServiceProvider {
+class FileSessionServiceProvider extends ServiceProvider {
 
 	/**
 	 * Register the service provider.
@@ -40,7 +40,7 @@ class SessionServiceProvider extends ServiceProvider {
 	{
 		$this->app->bindShared('session', function($app)
 		{
-			return new SessionManager($app);
+			return new FileSessionManagerSessionManager($app);
 		});
 	}
 
