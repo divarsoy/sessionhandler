@@ -3,7 +3,7 @@
 use Illuminate\Support\Manager;
 use Symfony\Component\HttpFoundation\Session\Storage\Handler\NullSessionHandler;
 
-class FileSessionManager extends SessionManager {
+class FileSessionManager extends \Illuminate\Session\SessionManager {
 
 	/**
 	 * Create an instance of the file session driver.
